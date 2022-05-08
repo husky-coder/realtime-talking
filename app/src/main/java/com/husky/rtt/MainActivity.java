@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                stopService(new Intent(MainActivity.this, CallActivity.class));
+                startActivity(new Intent(MainActivity.this, CallActivity.class));
             }
         });
 
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                stopService(new Intent(MainActivity.this, AnswerActivity.class));
+                startActivity(new Intent(MainActivity.this, AnswerActivity.class));
             }
         });
     }
