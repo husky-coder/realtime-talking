@@ -1,2 +1,2 @@
 # realtime-talking
-实时通话demo
+局域网实时通话demo
